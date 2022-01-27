@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://raw.githubusercontent.com/vibes/android-sdk-repository/releases/"
+        }
+         // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "MyApplication"
+include ':app'

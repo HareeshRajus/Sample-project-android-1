@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="c">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+
+        <meta-data android:name="com.example.myapplication.appId" android:value="${dea2b89a-02f5-4820-884c-307f0267c417}" />
+        <meta-data android:name="com.example.myapplication.apiUrl" android:value="${https://public-api-uatus0.vibescm.com/mobile_apps}" />
+
+        <activity
+            android:name="com.example.myapplication.MainActivity"
+            android:exported="true"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

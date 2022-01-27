@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "782699179934",
+    "project_id": "hareesh-android",
+    "storage_bucket": "hareesh-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782699179934:android:8805902438ffb50628f08f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782699179934-qi4ostf83lc93i7edlphn04d6c98ak39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5cUVrPK8X8UKOj3QxZtWDxNU001lZF3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782699179934-qi4ostf83lc93i7edlphn04d6c98ak39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
